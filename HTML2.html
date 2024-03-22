@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Travel Guide </title>
+    <link rel="stylesheet" href="Airport (2).css".css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <svg aria-hidden="true" class="svg-inline--fa fa-plane-departure fa-w-20" data-prefix="fas" data-icon="plane-departure" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="rgb(6, 59, 128)" d="M624 448H16c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h608c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM80.55 341.27c6.28 6.84 15.1 10.72 24.33 10.71l130.54-.18a65.62 65.62 0 0 0 29.64-7.12l290.96-147.65c26.74-13.57 50.71-32.94 67.02-58.31 18.31-28.48 20.3-49.09 13.07-63.65-7.21-14.57-24.74-25.27-58.25-27.45-29.85-1.94-59.54 5.92-86.28 19.48l-98.51 49.99-218.7-82.06a17.799 17.799 0 0 0-18-1.11L90.62 67.29c-10.67 5.41-13.25 19.65-5.17 28.53l156.22 98.1-103.21 52.38-72.35-36.47a17.804 17.804 0 0 0-16.07.02L9.91 230.22c-10.44 5.3-13.19 19.12-5.57 28.08l76.21 82.97z"></path></svg>
+                 Travel Guide
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Places</a>
+                <a href="#">Hotels</a>
+                <a href="#">Transport</a>   
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+               
+                <button class="loginbtn" onclick="document.getElementById('login-form').style.display='block' "style="width: auto;">Log In</button>
+            </div>
+            
+        </nav>
+
+        <div id="login-form" class="login-page">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" onclick="login()" class="toggle-btn">Log In</button>
+                    <button type="button" onclick="register()" class="toggle-btn">Register</button>
+                </div>
+                <form id="login" class="input-group-login">
+                    <input type="text" class="input-field" placeholder="Email Id" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box"><span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Log in</button>
+                </form>
+                
+
+                <form id="register" class="input-group-register">
+                    <input type="text" class="input-field" placeholder="First Name" required>
+                    <input type="text" class="input-field" placeholder="Last Name" required>
+                    <input type="email" class="input-field" placeholder="Email Id" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                    <input type="password" class="input-field" placeholder="Confirm Password" required>
+                    <input type="checkbox" class="check-box"><span>I agree to the terms and conditios</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+        </div>
+        
+
+
+
+
+        <section class="text">
+            <h1>Informational Guide to Indian Places- Non Official</h1>
+
+            <input type="text" name=" " placeholder="Search Places Here...">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </section>
+    </header>
+
+    <section id="mainblock">
+        <article id="subblock">
+            <div class="Terminal" id="terminal1">
+            
+                <svg aria-hidden="true" class="svg-inline--fa fa-plane-departure fa-w-20" data-prefix="fas" data-icon="plane-departure" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="rgb(6, 59, 128)" d="M624 448H16c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h608c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM80.55 341.27c6.28 6.84 15.1 10.72 24.33 10.71l130.54-.18a65.62 65.62 0 0 0 29.64-7.12l290.96-147.65c26.74-13.57 50.71-32.94 67.02-58.31 18.31-28.48 20.3-49.09 13.07-63.65-7.21-14.57-24.74-25.27-58.25-27.45-29.85-1.94-59.54 5.92-86.28 19.48l-98.51 49.99-218.7-82.06a17.799 17.799 0 0 0-18-1.11L90.62 67.29c-10.67 5.41-13.25 19.65-5.17 28.53l156.22 98.1-103.21 52.38-72.35-36.47a17.804 17.804 0 0 0-16.07.02L9.91 230.22c-10.44 5.3-13.19 19.12-5.57 28.08l76.21 82.97z"></path></svg>
+                <h3>South India </h3>
+                <p>1. Mysore, Karnataka
+2. Ooty, Tamilnadu
+3. Kodaikanal, Tamilnadu
+4. Coorg, Karnataka- One Of The Beautiful Places In South India
+5. Gokarna
+6. Chikmagalur, Karnataka
+7. Wayanad, Kerala
+8. Dandeli, Karnataka
+9. Pondicherry, Tamil Nadu
+10. Yellagiri Hills, Tamil Nadu
+11. Hassan, Karnataka
+12. Lepakshi, Andhra Pradesh</p>
+            </div>
+            <div class="Terminal" id="terminal2">
+                
+                <svg aria-hidden="true" class="svg-inline--fa fa-plane-departure fa-w-20" data-prefix="fas" data-icon="plane-departure" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="rgb(6, 59, 128)" d="M624 448H16c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h608c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM80.55 341.27c6.28 6.84 15.1 10.72 24.33 10.71l130.54-.18a65.62 65.62 0 0 0 29.64-7.12l290.96-147.65c26.74-13.57 50.71-32.94 67.02-58.31 18.31-28.48 20.3-49.09 13.07-63.65-7.21-14.57-24.74-25.27-58.25-27.45-29.85-1.94-59.54 5.92-86.28 19.48l-98.51 49.99-218.7-82.06a17.799 17.799 0 0 0-18-1.11L90.62 67.29c-10.67 5.41-13.25 19.65-5.17 28.53l156.22 98.1-103.21 52.38-72.35-36.47a17.804 17.804 0 0 0-16.07.02L9.91 230.22c-10.44 5.3-13.19 19.12-5.57 28.08l76.21 82.97z"></path></svg>
+                <h3>North India</h3>
+                <p>1. The daunting capital city of Delhi ,2. A glistening beauty- Udaipur, Rajasthan,3. The pink hue of Jaipur, Rajasthan,4. The Golden City – Jaisalmer, Rajasthan,5. Magic of the Taj Mahal, Uttar Pradesh,6. The land of faith – Amritsar, Punjab,8. The valleys of Manali, Himachal Pradesh</p>
+            </div>
+            <div class="Terminal" id="terminal3">
+                
+                <svg aria-hidden="true" class="svg-inline--fa fa-plane-departure fa-w-20" data-prefix="fas" data-icon="plane-departure" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="rgb(6, 59, 128)" d="M624 448H16c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h608c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM80.55 341.27c6.28 6.84 15.1 10.72 24.33 10.71l130.54-.18a65.62 65.62 0 0 0 29.64-7.12l290.96-147.65c26.74-13.57 50.71-32.94 67.02-58.31 18.31-28.48 20.3-49.09 13.07-63.65-7.21-14.57-24.74-25.27-58.25-27.45-29.85-1.94-59.54 5.92-86.28 19.48l-98.51 49.99-218.7-82.06a17.799 17.799 0 0 0-18-1.11L90.62 67.29c-10.67 5.41-13.25 19.65-5.17 28.53l156.22 98.1-103.21 52.38-72.35-36.47a17.804 17.804 0 0 0-16.07.02L9.91 230.22c-10.44 5.3-13.19 19.12-5.57 28.08l76.21 82.97z"></path></svg>
+                <h3>East India</h3>
+
+                <p> 1. Nathula Pass, Sikkim  2. Kaziranga National Park, Assam  3. Tsomgo Lake, Sikkim  4. Tawang Monastery, Arunachal Pradesh 5. Ziro Valley, Arunachal Pradesh 6. Cherrapunji and Mawsynram, Meghalaya  8. Mawlynnong Village, Meghalaya
+</p>
+            </div>
+        </article>
+    </section>
+
+
+
+    <div class="faci"><h1> FACILITIES</h1></div>
+
+        <section id="facility">
+            <article>
+                
+                <div class="faci1">
+                    <img src="../images/self-1.jpg" alt="icon" width="350px" height="250px">
+                    <h1>Free Guide</h1>
+                    <p>Free Guide is available for Guidence .&nbsp; An indian mobile phone number is required to&nbsp; receive a pin via SMS. once your time expires ,you have&nbsp;the option to purchase additional time</p>
+                    
+                    <div id="currency">
+                        <img src="../images/curren-1.jpg" alt="icon" width="350px" height="260px">
+                    </div>
+                    <h1 id="charge">Free Snacks</h1>
+                    <p id="para3">You can get Free Snacks &nbsp; Hotels</p>
+                    </div>
+
+
+                <div class="faci2">
+                    <h1 id="check">SELF CHECK-IN</h1>
+                    <p>
+                        Simply drop your bags at the baggage drop counters of respective&nbsp;  utilzing self check&nbsp;
+                        in&nbsp; faclity available in the departure hall of domestic&amp;  you can select seat &amp; prints yourpass using this facility.(or) yiu cheak you web cheak in at home and get passess. otherwise some just collect the passes at kiosks outsides the Pickup point.this saves a lot of time for you and also reduces congestion&nbsp;
+                
+                    </p>
+                    <img src="../images/wifi-1.jpg" alt="icon " width="300" height="250">
+              
+                    <h1 id="cur">CURRENCY EXCHANGES</h1>
+                    <p id="para2">Passenger and tourist&nbsp; can avail currency exchanges services with foreign exchanges counters available</p>
+                    <div id="mobile">
+                        <img src="../images/mobilechr-1.jpg" alt="icon" width="270" height="300">
+                    </div>
+                </div>
+
+            </article>
+        </section>
+
+
+        <!-- <footer part> -->
+            <section id="footer">
+                <article>
+                    <div class="passenger">
+                        <ol>
+                            <li style="color:rgb(248, 206, 246); font-weight:bolder; font-family:'Times New Roman', Times, serif; list-style-type: none;  ">Passenger Info</li>
+                            <li><a href="#">Name</a></li><hr>
+                            <li><a href="#">place</a></li><hr>
+                            <li><a href="#">Date of visiting </a></li><hr>
+                            <li><a href="#">Travel option</a></li><hr>
+                        </ol>
+                    </div>
+                    <div class="transport">
+                        <ol>
+                            <li style="color:rgb(248, 206, 246); font-weight:bolder; font-family:'Times New Roman', Times, serif; list-style-type: none; ">Transport</li>
+                            <li><a href="">Bus</a></li><hr>
+                            <li><a href="">Taxi</a></li><hr>
+                            <li><a href="">Train</a></li><hr>
+                            <li><a href="">Metro</a></li><hr>
+                        </ol>
+                    </div>
+                    <div class="others">
+                        <ol>
+                            <li style="color:rgb(248, 206, 246); font-weight:bolder; font-family:'Times New Roman', Times, serif; list-style-type: none; ">Others</li>
+                            <li><a href="">covid-19updates</a></li><hr>
+                            <li><a href="">Privacy Policy</a></li><hr>
+                            <li><a href="">Offers</a></li><hr>
+                            
+                        </ol>
+                    </div>
+
+                </article>
+                
+                
+            </section>
+            <div class="last"> A <a href="#"> SiteOrigin </a> Theme </div>
+        
+           <script src="Airport.js"></script>
+            
+            
+</body>
+</html>
